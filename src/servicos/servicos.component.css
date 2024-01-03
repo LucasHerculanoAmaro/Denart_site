@@ -1,0 +1,213 @@
+.color-theme{
+    color: #A71E55;
+}
+
+.first-image {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../../img/atendimento.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: revert;
+    margin-top: 80px;
+}
+
+/*Definition from Themes*/
+.first-theme{
+    position: inherit;
+    width: 50%;
+    margin-top: 0px;
+    margin-left: 55px;
+}
+
+/*Definition of the margin from First Text*/
+.mg-first-text{
+    font-size: 20px;
+}
+
+/*Definition of the margin from Second Text*/ 
+.mg-second-text{
+    margin-top: 150px;
+    font-size: 15px;
+}
+
+/*Definition of the magin from Thirf Text*/
+.mg-third-text{
+    margin-top: 50px;
+    font-size: 15px;
+}
+
+/*First list*/
+.ul-first{
+    margin-left: 110px;
+    font-size: 25px;
+    color: #A71E55;
+    margin-top: -500px;
+}
+
+.li-first{
+    margin-left: 50px;
+    font-size: 25px;
+    color: #A71E55;
+}
+
+/*Second list*/
+.ul-second{
+    margin-left: 0px;
+    font-size: 25px;
+}
+
+.li-second{
+    margin-top: 5px;
+    margin-left: 50px;
+    font-size: 25px;
+}
+
+/*Catalog of the Products*/
+.catalog{
+    margin-bottom: 50px;
+}
+
+/*first div, where there is an image as a background*/
+
+@media (max-width:412px){
+    .first-theme {
+        position: absolute !important;
+        width: 80% !important;
+        margin-top: 10px !important;
+        margin-left: 10px !important;
+    }
+
+    .ul-first {
+        font-size: 22px;
+        color: #A71E55;
+        margin-left: -20px !important;
+        margin-top: 0px !important;
+    }
+
+    .li-first{
+        margin-left: 50px;
+        font-size: 20px;
+    }
+
+    .first-image {
+        width: 100% !important;
+        height: 35vh !important;
+        background-image: url(../../img/atendimento.png) !important;
+        background-repeat: no-repeat !important;
+        background-size: cover !important;
+        background-position: revert !important;
+        margin-top: 145px;
+    }
+
+    section{
+        background-image: none;
+        height: 120%;
+    }
+
+    .h2-ferramenta{
+        font-size: 22px;
+        margin-left: -40px;
+    }
+
+    .mg-first-text{
+        font-size: 20px;
+    }
+
+    .mg-second-text{
+        margin-top: 0px !important;
+        font-size: 15px;
+    }
+    
+    .li-second{
+        margin-top: 0px !important;
+        margin-left: 0px !important;
+        font-size: 20px;
+    }
+
+    .mg-third-text{
+        margin-top: 50px;
+        font-size: 15px;
+    }
+    
+    .catalog{
+        margin: 0px 0px 40px 0px;
+    }
+
+    .element.style {
+        width: 10% !important;
+    }
+}
+
+
+@media (max-width:915px) {
+
+    section{
+        background-image: none;
+        height: 120%;
+    }
+
+    .first-image{
+        background-image: none;
+    }
+
+    .first-image-915 {
+        width: 100%;
+        height: 120vh;
+        background-image: url(../../img/atendimento.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: revert;
+        margin-top: 80px;
+    }
+
+    .first-theme{
+        position: absolute;
+        width: 80%;
+        margin-top: 20px;
+        margin-left: 60px;
+    
+    }
+
+    .ul-first {
+        font-size: 20px;
+        color: #A71E55;
+        margin-left: 40px;
+        margin-top: -340px;
+    }
+
+    .li-first {
+        margin-left: 50px;
+        font-size: 18px;
+    }
+
+    .mg-first-text {
+        font-size: 18px;
+    }
+
+    .mg-second-text {
+        margin-top: 80px;
+        font-size: 15px;
+    }
+
+    .li-second {
+        margin-top: 5px;
+        margin-left: 30px;
+        font-size: 20px;
+    }
+
+    .h2-ferramenta{
+        font-size: 22px;
+        margin-left: -40px;
+    }
+
+    .ul-second {
+        margin-left: 30px;
+        font-size: 25px;
+    }
+
+    .catalog {
+        margin: 0 0 50px 0; /*top - rigth - bottom - left*/
+    }
+}
+

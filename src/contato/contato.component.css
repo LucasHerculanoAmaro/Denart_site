@@ -1,0 +1,146 @@
+/*Definition from Image*/
+section{
+    height: 480px;
+    width: 100%;
+    background-image: url(https://i.imgur.com/kkb7LX7.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: revert;
+    margin-top: 85px;
+}
+
+.whatsapp-card{
+    margin-left: 15%;
+    margin-top: 5px;
+    width: 40rem !important;
+    height: 155px
+}
+
+.phone-card{
+    margin-left: 27%;
+    margin-top: 5px;
+    width: 40rem !important;
+    height: 155px;
+}
+
+.email-card{
+    margin-left: 40%;
+    margin-top: 5px;
+    width: 40rem !important;
+    height: 155px;
+}
+
+.color-theme{
+    color: #A71E55;
+}
+
+.theme{
+    margin-top: 5%;
+    margin-left: 35px;
+}
+
+a{
+    color: #A71E55;
+}
+
+.carousel{
+    margin-left: 15%;
+}
+
+.whatsapp-color{
+    color: #25d366;
+}
+
+.outlook-color{
+    color: #4169e1;
+}
+
+.telefone-color{
+    color: #191970;
+}
+
+/*=======================*/
+
+@media (max-width:412px){
+    section{
+        height: 800px !important;
+        width: 100% !important;
+        background-image: url(https://i.imgur.com/kkb7LX7.png) !important;
+        background-repeat: no-repeat;
+        background-size: inherit;
+        background-position: center;
+    }
+
+    .mg-card{
+        margin-left: 10px !important;
+        margin-top: 160px !important;
+    }
+
+    .card{
+        margin-left: 120px !important;
+        margin-top: 15px !important;
+    }
+    
+    .whatsapp-card{
+        margin-left: 160px !important;
+        margin-top: 10px !important;
+        width: 14rem !important;
+        height: 258px !important;
+    }
+
+    .phone-card{
+        margin-left: 160px !important;
+        margin-top: 10px !important;
+        width: 14rem !important;
+        height: 258px !important;
+    }
+
+    .email-card{
+        margin-left: 160px !important;
+        margin-top: 10px !important;
+        width: 14rem !important;
+        height: 258px !important;
+    }
+}
+
+@media (max-width:915px) {
+    section{
+        height: 320px;
+        width: 100%;
+        background-image: url(https://i.imgur.com/kkb7LX7.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: inherit;
+    }
+
+    .mg-card{
+        margin-left: -50px;
+        margin-top: 93px;
+    }
+
+    .card{
+        margin-left: 120px;
+        margin-top: 15px;
+    }
+
+    .whatsapp-card{
+        margin-left: 160px;
+        margin-top: 15px;
+        width: 14rem !important;
+        height: 294px;
+    }
+
+    .phone-card{
+        margin-left: 400px;
+        margin-top: -294px;
+        width: 14rem !important;
+        height: 294px;
+    }
+
+    .email-card{
+        margin-left: 640px;
+        margin-top: -292px;
+        width: 14rem !important;
+        height: 294px;
+    }
+}

@@ -1,0 +1,80 @@
+/*Margin from First Text*/
+.mg-first{
+    margin-top: 150px;
+    margin-left: 150px;
+    margin-right: 150px;
+    font-size: 25px;
+}
+
+.mg-theme{
+    margin-top: 30px;
+}
+
+.color-theme{
+    color: #A71E55;
+}
+
+/*Magin and images from Values's Text*/
+.mg-text{
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+.def-image{
+    border-radius: 150px;
+    width: 200px;
+    height: 200px;
+    margin-left: 45px;
+}   
+
+@media (max-width: 455px) {
+    .mg-first {
+        margin-top: 20px;
+        margin-left: 25px;
+        margin-right: 25px;
+        font-size: 20px;
+    }
+
+    .first-image{
+        height: 350px;
+        width: 350px
+    }
+
+    .mg-theme{
+        margin-top: 30px;
+        text-align: left !important;
+    }
+
+    .def-image{
+        border-radius: 150px !important;
+        width: 200px !important;
+        height: 200px !important;
+        margin-left: 93px !important;
+        margin-bottom: 10px !important ;
+    } 
+    
+    
+}
+
+@media (max-width:915px){
+    .mg-first {
+        margin-top: 80px;
+        margin-left: 25px;
+        margin-right: 25px;
+        font-size: 20px;
+    }
+
+    .first-image{
+        height: 350px;
+        width: 350px
+    }
+
+    .def-image{
+        border-radius: 150px;
+        width: 150px;
+        height: 150px;
+        margin-left: 10px;
+        margin-bottom: 10px;
+    }  
+
+}

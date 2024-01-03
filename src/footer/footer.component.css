@@ -1,0 +1,62 @@
+footer{
+    position: absolute;
+    background-color:#bbb;
+    width: 100%;
+    margin-top: 0%;
+    box-sizing: border-box;
+    font-size: 10px;
+    background: rgba(0,0,0,0.6);
+    border-bottom: 1px solid #a71e55;
+}
+
+h4{
+    font-size: 20px;
+}
+
+footer a:hover{
+    border-radius: 6px;
+    color: #a71e55;
+}
+
+footer a{
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.social-network ul li a:hover{
+    background: rgba(0,0,0,0.7);
+    border-radius: 6px;
+    color: #a71e55;
+}
+
+/*Definitions from Icons*/
+.fa-solid{
+    font-size: 35pt;
+    padding: 0px;
+}
+
+.fa-brands{
+    font-size: 35pt;
+    padding: 0px;
+}
+
+/*Definition from Denart's text*/
+.denart-color{
+    text-decoration-style: #a71e55;
+}
+
+/*definition fro List*/
+.container ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding-right: 4px;
+    margin-left: 10px;
+}
+
+/*======================*/ 
+@media (max-width:412px), (max-height:920px){
+    h4{
+        font-size: 15px;
+    }
+}
