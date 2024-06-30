@@ -1,6 +1,6 @@
 # DenartDesign
 
-Este Repositório foi dedicado ao projeto da empresa Denart - Comercio de Ferramentas e Soluções Construtiva.
+Este Repositório foi dedicado ao projeto da empresa "Denart - Comercio de Ferramentas e Soluções Construtiva".
 
 A Denart é uma empresa do ramo de vendas de materiais para reforma e construção e que pretendia ingressar no mercado digital.
 
